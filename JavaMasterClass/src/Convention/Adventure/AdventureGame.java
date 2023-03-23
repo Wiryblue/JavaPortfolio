@@ -13,7 +13,7 @@ public class AdventureGame {
 
         Map<String, Integer> tempExits = new HashMap<>();
         locations.put(0, new Location(0, "Welcome to the Backrooms", (HashMap<String, Integer>) tempExits));
-
+        //hi
 
         tempExits = new HashMap<>();
         tempExits.put("W", 2);
