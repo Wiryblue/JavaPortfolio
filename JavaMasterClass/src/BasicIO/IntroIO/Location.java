@@ -40,6 +40,8 @@ public class Location {
         return new HashMap<String, Integer>(exits);
     }
 
-
+    protected void addExit(String direction, int location){
+        exits.put(direction, location);
+    }
 
 }
